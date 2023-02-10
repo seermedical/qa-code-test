@@ -1,11 +1,14 @@
 # qa-code-test
 
 First of all, thank-you for your interest in Seer!
+
 This repo contains code problems designed for the QA hiring process. 
 
 Please only spend 30-60 minutes on this test. You're time means a lot to us. 
 
-Pull down this repo and branch of main. The branch naming convention is `test/<your_first_name>_<your_last_initial>`
+Pull down this repo and branch of main. 
+
+The branch naming convention is `test/<your_first_name>_<your_last_initial>`
 
 If you haven't worked with git before, [here is a good overview](https://www.youtube.com/watch?v=USjZcfj8yxE) for beginners. And otherwise more specific videos: 
 * [Download git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
