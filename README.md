@@ -34,7 +34,6 @@ const stringOne = 'A picture is worth'
 const stringTwo = '1000 words'
 
 // 3 Create a function `getProp` that takes the argument `keyName` and returns that property for each item in the `people` array
-
 const people = [
   {
     "name": "Leia Organa",
@@ -69,9 +68,7 @@ const people = [
 ]
 
 // 4 Keep count!
-
 //The code below has bugs. It's not working! Can you debug or make suggestions to fix it? 
-
 const researchAtSeer = `Medical technology is stronger when research shapes its development — that’s why our Seer Research team works alongside all teams at Seer. Seer researchers are renowned in the industry and pioneers in world-first seizure risk forecasting technologies.`
 
 function countSeer(str){
