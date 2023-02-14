@@ -21,16 +21,15 @@ If you haven't worked with git before, [here is a good overview](https://www.you
 
 This activity contains scripting problems for you to demonstrate your knowledge of coding principles and test automation.
 
-1. Create a new file called `scripting.{yourPreferredext}`
-2. Copy and paste the problems below into the scripting file. Then you can start coding.
+Create a new file called `scripting` in your preferred language.
+
+Copy and paste the patients array into `sscripting` 
+Create a function `getPatientCreatedAfter`.
+It takes one argument `date`
+It returns a list of names of people that were created after `date`
+e.g. getCreatedAfter('2019-12-10T15:20:00.000000Z') // returns ['Ervin Howell']
 
 ```javascript
-
-// Create a function `getPatientCreatedAfter`.
-// It takes one argument `date`
-// It returns a list of names of people that were created after `date`
-// e.g. getCreatedAfter('2019-12-10T15:20:00.000000Z') // returns ['Ervin Howell']
-
 const patients = [
   {
     "id": 1,
@@ -61,8 +60,8 @@ const patients = [
 
 ## Activity - Write a helper function called getUrl()
 
-1. Create a new file called `helpers`. Write in any language.
-2. The function, getUrl, takes one parameter `environmentVariable` and returns a string which is the corresponding URL for the specified environment 
+Create a new file called `helpers` in your preferred language. 
+The function, getUrl, takes one parameter `environmentVariable` and returns a string which is the corresponding URL for the specified environment 
 
 | Environment name | URL | 
 |---|---|
@@ -70,10 +69,11 @@ const patients = [
 |uat | https://my.uat.website|
 
 ## Activity - Defining test scope
-This is a snapshot of our public facing website. Based on what you can see in the image, define the complete test scope. 
-1. Identify which scenarios should be automated
-2. With code or pseudo code, write out the automated test
-3. Create a new file called `test_scope.md` to get started. Make sure to document any assumptions you make about the image (e.g. its interactivity) in the process
+This is a snapshot of our public facing website.  Create a new file called `test_scope.md` to get started. Make sure to document any assumptions you make about the image (e.g. its interactivity) in the process
+
+1. Based on what you can see in the image, define the complete test scope
+2. Identify which scenarios should be automated
+3. With code or pseudo code, write out the automated test
 
 
 ![Snapshot of Seer's public facing homepage](support_image/Seer_home_page.png)
