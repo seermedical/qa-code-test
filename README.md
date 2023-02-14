@@ -4,7 +4,7 @@ First of all, thank-you for your interest in Seer!
 
 This repo contains code problems designed for the QA hiring process. 
 
-Please no more than 0 minutes on this test. You're time means a lot to us. 
+Please no more than 60 minutes on this test. You're time means a lot to us. 
 
 Pull down this repo and branch of main. 
 
