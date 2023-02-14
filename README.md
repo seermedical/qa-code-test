@@ -1,33 +1,40 @@
 # qa-code-test
 
-First of all, thank-you for your interest in Seer!
+First of all, congratulations for making it through to the code test!
 
-This repo contains code problems designed for the QA hiring process. 
+We really appreciate your time and interest in Seer. The test focuses on your scripting and test scoping skills. 
 
-Please no more than 60 minutes on this test. You're time means a lot to us. 
+Below you'll find information to get you started.
 
-Pull down this repo and branch of main. 
+### What language do I write in? 
 
-The branch naming convention is `test/<your_first_name>_<your_last_initial>`
+Use the language you're most comfortable with. 
 
-If you haven't worked with git before, [here is a good overview](https://www.youtube.com/watch?v=USjZcfj8yxE) for beginners. And otherwise more specific videos: 
-* [Download git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-* [Clone a repo](https://www.youtube.com/watch?v=CKcqniGu3tA)
-* [Make a branch](https://www.youtube.com/watch?v=snxybJkFeUo)
+### How do I submit this code? 
+
+1. Pull down this repo & get coding!
+2. Once complete, zip all the files
+3. Email the zip to the member of our peeps team who reached out to organise the test
+
+### How long will this take? 
+
+The tests are designed to take around 45 minutes and no more than 60 minutes. 
    
-# Mid Level code testing
+# QA Coding test
 
-## Activity - Scripting
-
-This activity contains scripting problems for you to demonstrate your knowledge of coding principles and test automation.
+## 1 - Scripting
 
 Create a new file called `scripting` in your preferred language.
 
-Copy and paste the patients array into `sscripting` 
+Copy and paste the `patients` array into `scripting` 
+
 Create a function `getPatientCreatedAfter`.
+
 It takes one argument `date`
+
 It returns a list of names of people that were created after `date`
-e.g. getCreatedAfter('2019-12-10T15:20:00.000000Z') // returns ['Ervin Howell']
+
+e.g. `getCreatedAfter('2019-12-10') // returns ['Ervin Howell']`
 
 ```javascript
 const patients = [
@@ -58,22 +65,23 @@ const patients = [
 ]
 ```
 
-## Activity - Write a helper function called getUrl()
+## 2 - Write a helper function called getUrl()
 
 Create a new file called `helpers` in your preferred language. 
-The function, getUrl, takes one parameter `environmentVariable` and returns a string which is the corresponding URL for the specified environment 
+
+The function, `getUrl`, takes one parameter `environmentVariable` and returns a string which is the corresponding URL for the specified environment 
 
 | Environment name | URL | 
 |---|---|
 |production| https://my.website|
 |uat | https://my.uat.website|
 
-## Activity - Defining test scope
+## 3 - Defining test scope 
 This is a snapshot of our public facing website.  Create a new file called `test_scope.md` to get started. Make sure to document any assumptions you make about the image (e.g. its interactivity) in the process
 
-1. Based on what you can see in the image, define the complete test scope
+1. Based on what you can see in the image, define the test scope
 2. Identify which scenarios should be automated
-3. With code or pseudo code, write out the automated test
+3. With code or pseudo code, script one automated test
 
 
 ![Snapshot of Seer's public facing homepage](support_image/Seer_home_page.png)
